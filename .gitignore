@@ -1,5 +1,5 @@
-# IntelliJ
-out/
-.idea/
-lib/
-log/
+
+out
+.idea
+lib
+log
