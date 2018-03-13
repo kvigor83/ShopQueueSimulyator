@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c68c9459-ee9f-4ce2-b479-81f42b849b28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/third - 2017-12-11.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/third - 2018-01-29.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/main/Child.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/main/Parent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/main/Runner.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/task3/by/kastsiuchenka/kassa/main/Runner.class" afterPath="$PROJECT_DIR$/out/production/task3/by/kastsiuchenka/kassa/main/Runner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/task3/by/kastsiuchenka/kassa/simulyator/Simulation.class" afterPath="$PROJECT_DIR$/out/production/task3/by/kastsiuchenka/kassa/simulyator/Simulation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_9_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_9_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/testng_6_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/testng_6_8_7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/third.log" afterPath="$PROJECT_DIR$/logs/third.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/simulyator/Simulation.java" afterPath="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/simulyator/Simulation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3.iml" afterPath="$PROJECT_DIR$/task3.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +95,18 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="пояснения к модели.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/пояснения к модели.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-442">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceBundle.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/util/ResourceBundle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11594">
-              <caret line="770" column="39" lean-forward="false" selection-start-line="770" selection-start-column="39" selection-end-line="770" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -253,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/initializer/DataSource.java" />
         <option value="$PROJECT_DIR$/src/by/kastsiuchenka/kassa/main/Runner.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/пояснения к модели.txt" />
       </list>
     </option>
   </component>
@@ -273,6 +260,25 @@
     <option name="y" value="3" />
     <option name="width" value="1365" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -571,12 +577,12 @@
       <workItem from="1516916395548" duration="8081000" />
       <workItem from="1517343135911" duration="3267000" />
       <workItem from="1520327611253" duration="17000" />
-      <workItem from="1520959862938" duration="1214000" />
+      <workItem from="1520959862938" duration="3335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304116000" />
+    <option name="totallyTimeSpent" value="306237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/data.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -989,10 +994,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/пояснения к модели.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
