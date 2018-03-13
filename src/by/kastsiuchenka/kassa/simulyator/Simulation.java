@@ -37,13 +37,23 @@ public class Simulation {
             dataSource = DataSource.getInstance();
         } catch (BundleException e) {
             logger.error("initialization error from file data.properties", e);
+            throw new RuntimeException("!!!!ERROR!!!!");
         }
-        TOTAL_CLIENT_NUMBER = dataSource.getTOTAL_CLIENT_NUMBER();
-        DESK_NUMBER =dataSource.getDESK_NUMBER();
-        MIN_TIME_SERVE_ITEM = dataSource.getMIN_TIME_SERVE_ITEM();
-        MAX_TIME_SERVE_ITEM = dataSource.getMAX_TIME_SERVE_ITEM();
-        results = new ArrayList<>(DESK_NUMBER);
-        clientFactory = new ClientFactory(this, TOTAL_CLIENT_NUMBER);
+
+        if (dataSource != null) {
+            TOTAL_CLIENT_NUMBER = dataSource.getTOTAL_CLIENT_NUMBER();
+            DESK_NUMBER = dataSource.getDESK_NUMBER();
+            MIN_TIME_SERVE_ITEM = dataSource.getMIN_TIME_SERVE_ITEM();
+            MAX_TIME_SERVE_ITEM = dataSource.getMAX_TIME_SERVE_ITEM();
+            results = new ArrayList<>(DESK_NUMBER);
+            clientFactory = new ClientFactory(this, TOTAL_CLIENT_NUMBER);
+        }else {
+            TOTAL_CLIENT_NUMBER = 0;
+            DESK_NUMBER = 0;
+            MIN_TIME_SERVE_ITEM = 0;
+            MAX_TIME_SERVE_ITEM = 0;
+
+        }
     }
 
     public ArrayList<DeskReport> getResults() {
